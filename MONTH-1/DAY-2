@@ -1,0 +1,106 @@
+# Month 1 - Day 2
+
+## What I Did
+
+* Installed and started using Ubuntu in a VirtualBox VM.
+* Practiced working inside a Linux environment instead of Git Bash.
+* Created directories and files using the terminal.
+* Copied and renamed files using Linux commands.
+* Installed and tested an SSH server on Ubuntu.
+* Connected to my own machine using SSH.
+* Explored network information and running processes.
+
+## What I Learned
+
+### File Management
+
+* `cp` copies files.
+* `mv` moves or renames files.
+* `cat` displays the contents of a file.
+* `nano` can be used to edit files directly in the terminal.
+
+### Linux Permissions
+
+* `chmod` changes file and directory permissions.
+* Permission values:
+
+  * `7` = read + write + execute (rwx)
+  * `6` = read + write (rw-)
+  * `4` = read only (r--)
+* Examples:
+
+  * `chmod 755 script.sh`
+  * `chmod 644 notes.txt`
+  * `chmod 600 secret.txt`
+
+### Networking
+
+* Used `ip a` to view network information.
+* Learned the difference between:
+
+  * Device IP address
+  * Broadcast address
+* Learned that private IP addresses are used inside local networks.
+* Used `ping google.com` to test network connectivity.
+* Learned that `Ctrl + C` stops a running command.
+
+### SSH
+
+* Learned that SSH allows secure remote access to another computer through a terminal.
+* Installed OpenSSH Server.
+* Started the SSH service.
+* Checked service status.
+* Connected using:
+
+  * `ssh localhost`
+* Learned that SSH is commonly used to manage cloud servers remotely.
+
+### Services and systemctl
+
+* `start` starts a service immediately.
+* `stop` stops a service immediately.
+* `enable` makes a service start automatically at boot.
+* `disable` prevents automatic startup.
+
+### SSH Keys
+
+* Learned the difference between public and private keys.
+* Public key goes on the server.
+* Private key stays secret on my device.
+* Authentication works without sending the private key to the server.
+
+### Process Management
+
+* `ps aux` shows running processes.
+* `top` provides a live view of system activity.
+* `htop` is a more user-friendly process monitor.
+* `kill PID` stops a process.
+* `kill -9 PID` forcefully terminates a process.
+
+## Biggest Mistakes
+
+* Created folders with spaces in their names and learned why Linux users usually avoid spaces.
+* Received a "too many arguments" error when using `cd` with a directory name containing spaces.
+* Confused terminal shortcuts with normal desktop shortcuts while working inside Ubuntu.
+
+## Biggest Lessons
+
+* Error messages usually tell you exactly what went wrong.
+* Linux commands become easier through practice, not memorization.
+* Services can be running now (`start`) and also be configured to start automatically later (`enable`).
+* SSH is one of the most important tools for cloud and system administration.
+
+## Questions for the Future
+
+* How does SSH key authentication work internally?
+* What happens when a packet travels across a network?
+* How do Linux permissions affect system security?
+
+## Day 2 Result
+
+✅ Ubuntu VM running.
+✅ File management commands practiced.
+✅ Basic networking concepts learned.
+✅ SSH installed and tested.
+✅ Process management basics learned.
+
