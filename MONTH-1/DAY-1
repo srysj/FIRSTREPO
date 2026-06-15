@@ -1,0 +1,69 @@
+# Month 1 - Day 1
+
+## Starting Point
+
+* Age: 17
+* Experience: Absolute zero
+* Goal: Start my Cloud Security journey.
+
+## What I Did
+
+* Installed Git.
+* Verified Git installation.
+* Created my GitHub account.
+* Created my first GitHub repository.
+* Installed VS Code.
+* Installed VirtualBox.
+* Cloned my repository.
+* Created my first file.
+* Made my first Git commit.
+* Pushed my work to GitHub.
+* Started learning basic Linux commands.
+
+## What I Learned
+
+* Git is a version control system.
+* Git helps keep track of changes in a project.
+* `git clone` downloads a repository.
+* `git status` shows the state of files.
+* `git add` stages changes.
+* `git commit` creates a snapshot of changes.
+* `git push` uploads changes to GitHub.
+* `pwd` shows the current directory.
+* `ls` lists files and folders.
+* `mkdir` creates directories.
+* `touch` creates files.
+* `cd` changes directories.
+* `rm -r` removes directories recursively.
+
+## Biggest Mistakes
+
+* I was confused about what `git init` does.
+* I didn't know how to create a file from the terminal.
+* I thought `git commit -m day1-notes.md` used the file name for something special, but it was actually just the commit message.
+* I thought `git push` was not working because it took a moment to complete.
+* I tried deleting a directory while I was inside it and learned why that doesn't work.
+
+## Biggest Lessons
+
+* Read error messages carefully.
+* Looking things up is part of learning.
+* A directory is like a room and a file is like a book.
+* You can walk into a directory, but you cannot walk into a file.
+* Small daily progress is enough.
+
+## Questions for the Future
+
+* What is the difference between `git init` and `git clone`?
+* How does Git store old versions of files?
+* What other Linux commands should I learn?
+
+## Day 1 Result
+
+✅ Git installed.
+✅ GitHub account created.
+✅ First repository created.
+✅ First commit and push completed.
+✅ First steps into Linux.
+
+First day completed.
