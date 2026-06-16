@@ -1,0 +1,238 @@
+# Month 1 - Day 3
+
+## What I Did
+
+* Practiced Linux file permissions using `chmod`.
+* Learned how Linux controls access to files and directories.
+* Explored networking fundamentals.
+* Viewed network configuration on Ubuntu.
+* Tested connectivity to other systems.
+* Performed DNS lookups.
+* Examined listening ports and services.
+* Learned basic firewall management using UFW.
+
+---
+
+## What I Learned
+
+### Linux Permissions
+
+* Linux permissions are divided into:
+
+  * Owner
+  * Group
+  * Others
+
+* Permission types:
+
+  * `r` = Read
+  * `w` = Write
+  * `x` = Execute
+
+* Numeric values:
+
+  * `4` = Read
+  * `2` = Write
+  * `1` = Execute
+
+Examples:
+
+* `600` = Owner can read and write, nobody else has access.
+* `644` = Owner can read and write, everyone else can read.
+* `755` = Owner has full access, others can read and execute.
+* `777` = Everyone has full access (usually not recommended).
+
+### Identity and Ownership
+
+* `whoami` shows the current user.
+* `id` shows user ID, group ID, and group membership.
+
+---
+
+## Networking Fundamentals
+
+### IP Addresses
+
+* Every device on a network needs an IP address.
+
+* Private IP ranges are used inside local networks.
+
+* Example:
+
+  * `192.168.x.x`
+  * `10.x.x.x`
+  * `172.16.x.x - 172.31.x.x`
+
+* Public IP addresses are reachable from the internet.
+
+### Subnets
+
+* Learned what `/24` means.
+* Devices use subnet information to determine:
+
+  * What is local.
+  * What must be sent to the gateway/router.
+
+### DNS
+
+* DNS translates domain names into IP addresses.
+
+* Example:
+
+  google.com → IP address
+
+* Used:
+
+  * `nslookup`
+  * `cat /etc/resolv.conf`
+
+### DHCP
+
+* DHCP automatically assigns:
+
+  * IP addresses
+  * Gateway information
+  * DNS servers
+
+when a device joins a network.
+
+### Ports
+
+* One IP address can run many services using ports.
+
+Examples:
+
+* Port 22 → SSH
+* Port 80 → HTTP
+* Port 443 → HTTPS
+
+### TCP vs UDP
+
+#### TCP
+
+* Reliable delivery.
+* Uses acknowledgements.
+* Slower but more dependable.
+
+#### UDP
+
+* No delivery guarantees.
+* Faster.
+* Commonly used for real-time communication.
+
+### OSI Model
+
+Learned the purpose of all 7 layers.
+
+Focused on:
+
+#### Layer 3
+
+* Network Layer
+* IP addressing
+* Routing
+
+#### Layer 4
+
+* Transport Layer
+* TCP
+* UDP
+* Ports
+
+---
+
+## Firewalls
+
+### UFW (Uncomplicated Firewall)
+
+Commands practiced:
+
+```bash
+sudo ufw enable
+sudo ufw allow 22
+sudo ufw status
+```
+
+Learned:
+
+* Firewalls control incoming and outgoing traffic.
+* Only required ports should be opened.
+* Follow the Principle of Least Privilege:
+
+  * Allow only what is needed.
+  * Block everything else.
+
+---
+
+## Commands Practiced
+
+```bash
+ip a
+ping
+nslookup
+cat /etc/resolv.conf
+ss -tulnp
+traceroute
+whoami
+id
+chmod
+sudo ufw enable
+sudo ufw allow 22
+sudo ufw status
+```
+
+---
+
+## Biggest Mistakes
+
+* Initially treated permission numbers as values to memorize instead of understanding how they are calculated.
+* Forgot some permission string formatting while converting numeric permissions.
+* Underestimated how much information can be learned from command output.
+
+---
+
+## Biggest Lessons
+
+* Permissions are simply combinations of:
+
+  * Read (4)
+  * Write (2)
+  * Execute (1)
+
+* Networking is not magic:
+
+  * Devices communicate using IP addresses.
+  * Services communicate using ports.
+
+* DNS acts like the internet's phone book.
+
+* Security starts with restricting access and opening only what is necessary.
+
+---
+
+## Questions for the Future
+
+* How does routing work between different networks?
+* How does DNS work behind the scenes?
+* How does SSH encryption actually protect communication?
+* How do enterprise firewalls differ from UFW?
+
+---
+
+## Day 3 Result
+
+✅ Linux permissions understood.
+
+✅ Numeric permission calculations understood.
+
+✅ Basic networking concepts learned.
+
+✅ DNS and DHCP concepts understood.
+
+✅ TCP vs UDP understood.
+
+✅ OSI model introduced.
+
+✅ Firewall basics practiced.
+
+✅ Day 3 completed.
