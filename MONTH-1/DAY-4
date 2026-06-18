@@ -1,0 +1,61 @@
+# 📅 Day 4 – Linux System Administration & Revision
+
+## ✅ What I Learned
+- Learned how to inspect a Linux system using commands like `whoami`, `hostname`, `uname`, `df -h`, `du -sh`, `free -h`, and `cat /etc/os-release`.
+- Understood the difference between `apt update` (refreshes the package list) and `apt upgrade` (installs available updates).
+- Learned why `sudo` is required for commands that need administrator privileges.
+- Understood what swap memory is and how Linux uses disk space as backup memory when RAM is full.
+- Learned the difference between `df` (filesystem space) and `du` (disk usage of files/directories).
+- Revised everything from Days 1–4, including Git, Linux, Networking, and System Administration.
+- Strengthened my understanding of TCP vs UDP, DNS, DHCP, IP addresses, ports, and Linux permissions.
+
+---
+
+## 🛠️ What I Practiced
+- Explored system information using Linux commands.
+- Compared disk usage with `df -h` and `du -sh`.
+- Practiced explaining networking concepts without looking at notes.
+- Completed a full revision test covering everything learned from Days 1–4.
+- Corrected mistakes and improved my understanding of Linux commands and networking concepts.
+
+---
+
+## ❌ Mistakes I Made
+- Confused a Git commit with a comment instead of a snapshot.
+- Thought `cat` opens a file instead of displaying its contents.
+- Didn't know the purpose of the `less` command.
+- Mixed up some details about `hostname` and `uname -a`.
+- Initially described UDP as "not secure" instead of "not reliable."
+
+---
+
+## 🎯 Key Takeaways
+- `apt update` checks for available package updates, while `apt upgrade` installs them.
+- `df` shows available disk space, while `du` shows how much space a specific file or directory uses.
+- TCP is reliable because it confirms delivery; UDP is faster because it doesn't wait for acknowledgements.
+- Linux system information commands are essential for troubleshooting.
+- Regular revision helps identify weak areas and reinforces understanding.
+
+---
+
+## 🏢 Active Directory Concepts Learned
+I've now got the four core Active Directory building blocks solid:
+
+- **Domain** – The entire company network that users and computers belong to.
+- **Organizational Unit (OU)** – Folders used to organize users, computers, and other objects.
+- **Group Policy (GPO)** – Automatically applies rules and settings to users or computers inside an OU.
+- **Security Groups & Permissions** – Used to control who has access to specific files, folders, printers, applications, and other resources.
+
+---
+
+## 📈 Progress
+- ✅ Git & GitHub Basics
+- ✅ Linux Navigation & File Management
+- ✅ Networking Fundamentals
+- ✅ Linux System Administration Basics
+- ✅ Active Directory Fundamentals
+- ✅ Full Revision (Days 1–4)
+
+**Revision Test Score:** **35.5/40** ⭐
+
+> **"Learning isn't about memorizing commands—it's about understanding how systems work and being able to troubleshoot them."**cd
