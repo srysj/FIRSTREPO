@@ -1,0 +1,62 @@
+# Day 5 - Linux Users, Permissions & Bash Scripting
+
+## Topics Covered
+
+### Linux Users & Groups
+- Understanding users and groups
+- Owner, Group, and Others
+- `whoami`
+- `id`
+- `groups`
+
+### File Permissions
+- Read (r)
+- Write (w)
+- Execute (x)
+
+Learned how permissions work for:
+- Owner
+- Group
+- Others
+
+### chmod
+Practiced both symbolic and numeric permissions.
+
+Examples:
+- `chmod 755 file`
+- `chmod 644 file`
+- `chmod u+x script.sh`
+- `chmod g-w file`
+
+### Ownership
+- `chown`
+- `chgrp`
+
+Learned the difference between changing permissions and changing file ownership.
+
+### Bash Scripting
+Practiced:
+- Variables
+- User input
+- Conditionals (`if`, `else`)
+- Loops (`for`, `while`)
+- Functions
+- Command-line arguments
+
+## What I Learned
+
+- Linux permissions are divided into Owner, Group, and Others.
+- Each permission consists of Read, Write, and Execute.
+- `chmod` changes permissions.
+- `chown` changes ownership.
+- Bash scripting helps automate repetitive Linux tasks.
+
+## Challenges
+
+- Understanding loops in Bash scripting.
+- Remembering permission values (755, 644, etc.).
+- Distinguishing between permissions and ownership.
+
+## Goal
+
+Continue practicing Bash scripting and become comfortable writing small automation scripts.
