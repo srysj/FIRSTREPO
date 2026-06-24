@@ -1,0 +1,38 @@
+Day 6 — Windows Fundamentals & Troubleshooting
+
+Learned:
+- Windows file system and common user directories.
+- Hidden files and folders (AppData, system files).
+- Switching drives in CMD (C:, D:, E:).
+- Understanding paths and File Explorer navigation.
+- Difference between files, folders, and junctions.
+
+Commands Practiced:
+- dir
+- dir /a
+- dir /b
+- dir /s
+- cd
+- mkdir
+- rmdir
+
+Windows Tools:
+- Task Manager
+- Services
+- Event Viewer
+- Device Manager
+- Control Panel
+
+Key Concepts:
+- Processes vs Services
+- Desktop Window Manager (dwm.exe)
+- Print Spooler service
+- System, Application, and Security logs
+- Basic Windows troubleshooting workflow
+
+Real-World Skills:
+- Finding hidden files
+- Investigating system issues using Event Viewer
+- Checking services for application problems
+- Navigating Windows from the command line
+- Understanding how Helpdesk technicians diagnose issues
