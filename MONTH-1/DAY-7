@@ -1,0 +1,43 @@
+Day 7 — Linux Revision & Practical Lab
+
+Learned:
+
+* Reinforced Linux file and directory management.
+* Practiced navigation, creation, copying, moving, and deletion operations.
+* Reviewed users, groups, ownership, and permissions.
+* Practiced basic Bash scripting concepts:
+
+  * Variables
+  * User input
+  * If/Else statements
+  * Loops
+  * Functions
+  * Positional arguments
+
+Commands Practiced:
+
+* pwd
+* ls -la
+* mkdir
+* cd
+* touch
+* cp
+* mv
+* rm
+* rmdir
+* chmod
+* chown
+* chgrp
+* useradd
+* usermod
+* groupadd
+
+Mini Projects:
+
+* Created a company directory structure.
+* Managed files between Reports, Backups, and Scripts folders.
+* Assigned ownership and permissions.
+* Built simple Bash scripts for user input and automation.
+
+Key Takeaway:
+Focused on retention and practical usage rather than learning many new commands. Became more comfortable with Linux administration fundamentals and troubleshooting common mistakes.
