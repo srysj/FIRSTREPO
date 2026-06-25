@@ -1,0 +1,23 @@
+Day 8 — Active Directory Basics
+
+Learned:
+
+* Active Directory fundamentals
+* Users, Groups, and OUs
+* Password resets
+* Account unlocks
+* Basic user management
+
+Key Concepts:
+
+* Users represent employees
+* Groups simplify permission management
+* OUs organize users and devices logically
+* Domain Controller manages AD
+
+Helpdesk Skills:
+
+* Reset user passwords
+* Unlock accounts
+* Add users to groups
+* Understand basic access management

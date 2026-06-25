@@ -1,0 +1,34 @@
+Day 9 — Network Troubleshooting
+
+Learned:
+
+* APIPA (169.254.x.x)
+* DHCP troubleshooting
+* DNS troubleshooting
+* Gateway testing
+* NAT basics
+* VPN concepts
+* Drive mapping concepts
+
+Commands Practiced:
+
+* ipconfig
+* ipconfig /all
+* ping
+* tracert
+* nslookup
+
+Key Concepts:
+
+* Network troubleshooting workflow
+* Private vs Public IP addresses
+* NAT translation
+* Gateway communication
+* DNS resolution
+
+Helpdesk Skills:
+
+* Diagnose connectivity issues
+* Identify DHCP failures
+* Identify DNS problems
+* Troubleshoot basic network tickets
